@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# Virtual environments
+venv/
+env/
+.env
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Data files (large datasets - download separately)
+data/cifar-10-batches-py/
+data/MNIST/
+
+# Model files (too large for GitHub - train locally)
+models/*.pth
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
